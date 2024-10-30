@@ -5,11 +5,11 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
-  commands:
-    - mkdocs build
+  
 
 python:
   install:
     - pip install mkdocs mkdocs-material
 
-
+commands:
+    - mkdocs build
